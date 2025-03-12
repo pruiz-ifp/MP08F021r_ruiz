@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0 auto;
+    width: 50%;
+    /*width: 60rem;*/
+    text-align: center;
+    background: ivory;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.franja{
+    width: 100rem;
+    height: 100rem;
+    background: pink;
+    transform: rotate(45deg);
+}
+nav{
+    height: 5.25rem;
+}
+h1{
+    font-size: 4rem;
+    display: inline;
+    text-align: center;
+}
+h1:nth-child(2){
+    color: grey;
+}
+/*---ANIM COCHES---*/
+.cars{
+    height: 31.25rem;
+    width: 56.25rem;
+    animation: cotxes 5s ease infinite;
+}
+iframe{
+    height: 31.25rem;
+    width: 56.25rem;
+}
+/*@keyframes cotxes {
+	0% {
+		background:url(/img/ani/back.png)
+	}
+	20% {
+		background:url(/img/ani/bean.png)
+	}
+	30% {
+		background:url(/img/ani/bond.png)
+	}
+    40% {
+		background:url(/img/ani/break.png)
+	}
+    50% {
+		background:url(/img/ani/ghost.png)
+	}
+    60% {
+		background:url(/img/ani/pulp.png)
+	}
+    70% {
+		background:url(/img/ani/driver.png)
+	}
+    80% {
+		background:url(/img/ani/taxi.png)
+	}
+    100% {
+		background:url(/img/ani/team.png)
+	}
+}*/
+
+/*---CAJAS--*/
+.caja{
+    height: 15rem;
+    float: left;
+    margin: 0.625rem;
+    background: white;
+    opacity: 50%;
+    text-align: center;
+}
+.caja:hover{
+    opacity: 100%;
+    animation: rotacio 0.3s ease;
+}
+@keyframes rotacio{
+    0%{
+        transform:rotateZ(0deg);
+    }
+    100%{
+        transform:rotateZ(360deg);
+    }
+}
+.foto{
+    height: 12.5rem;
+    width: 18.75rem;
+}
+.titol{
+    height: 2.5rem;
+    width: 18.75rem;
+    text-align: left;
+    line-height: 2rem;
+    font-size: 1rem;
+}
+footer{
+    clear: left;
+}
+/*---RESPONSIVE---*/
+
+@media screen and (max-width: 480px){
+    h1{
+        font-size: 2rem;
+    }
+}
