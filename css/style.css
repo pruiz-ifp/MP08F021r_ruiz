@@ -41,42 +41,43 @@ iframe{
     width: 56.25rem;
 }
 .cars{
-    width: 960px;
-    height: 580px;
-    position: relative;
-    margin-top:-120px;
+    height: 36.25rem;
+    width: 56.25rem;
+    animation: cotxes 20s infinite;
+    margin-top:2rem;
     text-align: center;
-    text-align: center;
-    animation: anim 10s infinite linear;
 }
 
-@keyframes anim {
-    0%{
-        background: url(img/ani/pulp.png);
-    }
-    11%{
-        background: url(img/ani/taxi.png);
-    }
-    24%{
-        background: url(img/ani/bond.png);
-    }
-    37%{
-        background: url(img/ani/ghost.png);
-    }
-    50%{
-        background: url(img/ani/bean.png);
-    }
-    63%{
-        background: url(img/ani/back.png);
-    }
-    76%{
-        background: url(img/ani/rider.png);
-    }
-    89%{
-        background: url(img/ani/team.png);
-    }
-    100%{
-        background: url(img/ani/break.png);
+@keyframes cotxes {
+	0% {
+		background:url(/img/ani/back.png)
+	}
+	11% {
+		background:url(/img/ani/bean.png)
+	}
+	22% {
+		background:url(/img/ani/bond.png)
+	}
+    33% {
+		background:url(/img/ani/break.png)
+	}
+    44% {
+		background:url(/img/ani/ghost.png)
+	}
+    55% {
+		background:url(/img/ani/pulp.png)
+	}
+    66% {
+		background:url(/img/ani/driver.png)
+	}
+    77% {
+		background:url(/img/ani/taxi.png)
+	}
+    88% {
+		background:url(/img/ani/team.png)
+	}
+    99%{
+        background:url(/img/ani/break.png)
     }
 }
 
