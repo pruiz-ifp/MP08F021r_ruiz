@@ -7,7 +7,7 @@ body{
     width: 50%;
     /*width: 60rem;*/
     text-align: center;
-    background: ivory;
+    background: rgb(223, 223, 216);
     font-family: Arial, Helvetica, sans-serif;
     z-index: 4000;
 }
