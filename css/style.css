@@ -40,35 +40,45 @@ iframe{
     height: 31.25rem;
     width: 56.25rem;
 }
-/*@keyframes cotxes {
-	0% {
-		background:url(/img/ani/back.png)
-	}
-	20% {
-		background:url(/img/ani/bean.png)
-	}
-	30% {
-		background:url(/img/ani/bond.png)
-	}
-    40% {
-		background:url(/img/ani/break.png)
-	}
-    50% {
-		background:url(/img/ani/ghost.png)
-	}
-    60% {
-		background:url(/img/ani/pulp.png)
-	}
-    70% {
-		background:url(/img/ani/driver.png)
-	}
-    80% {
-		background:url(/img/ani/taxi.png)
-	}
-    100% {
-		background:url(/img/ani/team.png)
-	}
-}*/
+.cars{
+    width: 960px;
+    height: 580px;
+    position: relative;
+    margin-top:-120px;
+    text-align: center;
+    text-align: center;
+    animation: anim 10s infinite linear;
+}
+
+@keyframes anim {
+    0%{
+        background: url(img/ani/pulp.png);
+    }
+    11%{
+        background: url(img/ani/taxi.png);
+    }
+    24%{
+        background: url(img/ani/bond.png);
+    }
+    37%{
+        background: url(img/ani/ghost.png);
+    }
+    50%{
+        background: url(img/ani/bean.png);
+    }
+    63%{
+        background: url(img/ani/back.png);
+    }
+    76%{
+        background: url(img/ani/rider.png);
+    }
+    89%{
+        background: url(img/ani/team.png);
+    }
+    100%{
+        background: url(img/ani/break.png);
+    }
+}
 
 /*---CAJAS--*/
 .caja{
